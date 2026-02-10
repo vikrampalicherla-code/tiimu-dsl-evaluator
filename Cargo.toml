@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "crates/tiimu-dsl",
+  "crates/tiimu-expr-ast",
+  "crates/tiimu-expr-typecheck",
+  "crates/tiimu-expr-eval",
+  "crates/tiimu-expr-registry"
+]
+resolver = "2"
