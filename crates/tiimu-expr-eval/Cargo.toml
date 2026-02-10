@@ -1,0 +1,11 @@
+[package]
+name = "tiimu-expr-eval"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1"
+tiimu-expr-ast = { path = "../tiimu-expr-ast" }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+tiimu-dsl = { path = "../tiimu-dsl" }

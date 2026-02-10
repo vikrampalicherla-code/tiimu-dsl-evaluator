@@ -1,0 +1,11 @@
+[package]
+name = "tiimu-expr-registry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+tiimu-expr-ast = { path = "../tiimu-expr-ast" }

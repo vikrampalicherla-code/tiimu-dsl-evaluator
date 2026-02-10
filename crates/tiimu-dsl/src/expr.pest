@@ -1,0 +1,34 @@
+WHITESPACE = _{ " " | "\t" | "\r" | "\n" }
+
+ident = @{ (ASCII_ALPHA | "_") ~ (ASCII_ALPHANUMERIC | "_")* }
+field_ref = @{ ident ~ ("." ~ ident)* }
+
+string = @{ "\"" ~ ( "\\\"" | "\\\\" | (!"\"" ~ ANY) )* ~ "\"" }
+number = @{ "-"? ~ ASCII_DIGIT+ ~ ("." ~ ASCII_DIGIT+)? }
+boolean = { "true" | "false" }
+null = { "null" }
+
+regex = @{ "/" ~ ( "\\/" | (!"/" ~ ANY) )* ~ "/" }
+list = { "[" ~ (value ~ ("," ~ value)*)? ~ "]" }
+value = { string | number | boolean | null | field_ref }
+
+expression = { or_expr }
+or_expr = { and_expr ~ ( "||" ~ and_expr )* }
+and_expr = { unary_expr ~ ( "&&" ~ unary_expr )* }
+unary_expr = { "!"? ~ primary }
+primary = { "(" ~ expression ~ ")" | predicate | function_call | literal | field_expr }
+field_expr = { field_ref }
+literal = { string | number | boolean | null }
+function_call = { ident ~ "(" ~ (expression ~ ("," ~ expression)*)? ~ ")" }
+
+comparator = { "==" | "!=" | "<=" | "<" | ">=" | ">" }
+membership = { "not" ~ WHITESPACE+ ~ "in" | "in" }
+contains = { "contains" }
+regexop = { "~" }
+
+predicate = {
+    field_ref ~ WHITESPACE* ~ comparator ~ WHITESPACE* ~ value
+  | field_ref ~ WHITESPACE+ ~ membership ~ WHITESPACE+ ~ (list | field_ref)
+  | field_ref ~ WHITESPACE+ ~ contains ~ WHITESPACE+ ~ value
+  | field_ref ~ WHITESPACE* ~ regexop ~ WHITESPACE* ~ regex
+}

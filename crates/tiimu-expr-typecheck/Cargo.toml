@@ -1,0 +1,9 @@
+[package]
+name = "tiimu-expr-typecheck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1"
+tiimu-expr-ast = { path = "../tiimu-expr-ast" }
+regex = "1"
