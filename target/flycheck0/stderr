@@ -1,0 +1,1828 @@
+    Updating crates.io index
+     Locking 34 packages to latest compatible versions
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding thiserror v1.0.69 (available: v2.0.18)
+   0.239120300s  INFO prepare_target{force=false package_id=tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl) target="tiimu_dsl"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiimu_dsl", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-dsl\\src\\lib.rs", Edition2021) }
+   0.239233500s  INFO prepare_target{force=false package_id=tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl) target="tiimu_dsl"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-dsl-927b6cb7e6e13e58\lib-tiimu_dsl`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.253776000s  INFO prepare_target{force=false package_id=pest v2.8.6 target="pest"}: cargo::core::compiler::fingerprint: fingerprint error for pest v2.8.6/Check { test: false }/TargetInner { ..: lib_target("pest", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pest-2.8.6\\src\\lib.rs", Edition2021) }
+   0.253813200s  INFO prepare_target{force=false package_id=pest v2.8.6 target="pest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\pest-3d8292f6deb84b01\lib-pest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.254394700s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.0\\src\\lib.rs", Edition2021) }
+   0.254416700s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\memchr-3597f8b257c61c3b\lib-memchr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.254902900s  INFO prepare_target{force=false package_id=ucd-trie v0.1.7 target="ucd_trie"}: cargo::core::compiler::fingerprint: fingerprint error for ucd-trie v0.1.7/Check { test: false }/TargetInner { ..: lib_target("ucd_trie", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ucd-trie-0.1.7\\src\\lib.rs", Edition2021) }
+   0.254919300s  INFO prepare_target{force=false package_id=ucd-trie v0.1.7 target="ucd_trie"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\ucd-trie-0138aecedcd82653\lib-ucd_trie`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.255224300s  INFO prepare_target{force=false package_id=pest_derive v2.8.6 target="pest_derive"}: cargo::core::compiler::fingerprint: fingerprint error for pest_derive v2.8.6/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("pest_derive", ["proc-macro"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pest_derive-2.8.6\\src\\lib.rs", Edition2021) }
+   0.255240700s  INFO prepare_target{force=false package_id=pest_derive v2.8.6 target="pest_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\pest_derive-9a80113df4dd258c\lib-pest_derive`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.256194700s  INFO prepare_target{force=false package_id=pest_generator v2.8.6 target="pest_generator"}: cargo::core::compiler::fingerprint: fingerprint error for pest_generator v2.8.6/Build/TargetInner { ..: lib_target("pest_generator", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pest_generator-2.8.6\\src\\lib.rs", Edition2021) }
+   0.256215600s  INFO prepare_target{force=false package_id=pest_generator v2.8.6 target="pest_generator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\pest_generator-2a4ed7ec8d8395d8\lib-pest_generator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.256655000s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
+   0.256671600s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\proc-macro2-b60c4d3ae115c9cf\lib-proc_macro2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.257351800s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.257371100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\proc-macro2-99a227d6dcd2df18\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.257541800s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.257554500s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\proc-macro2-0cd761d9cc0be7e8\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.258497200s  INFO prepare_target{force=false package_id=quote v1.0.44 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.44/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.44\\src\\lib.rs", Edition2021) }
+   0.258519400s  INFO prepare_target{force=false package_id=quote v1.0.44 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\quote-7ac2ccc19f907306\lib-quote`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.259258700s  INFO prepare_target{force=false package_id=quote v1.0.44 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.44/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.44\\build.rs", Edition2021) }
+   0.259278400s  INFO prepare_target{force=false package_id=quote v1.0.44 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\quote-5e4d90243d78f6ca\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.259442900s  INFO prepare_target{force=false package_id=quote v1.0.44 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.44/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.44\\build.rs", Edition2021) }
+   0.259454800s  INFO prepare_target{force=false package_id=quote v1.0.44 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\quote-c7f8f84baf71e25f\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.259915800s  INFO prepare_target{force=false package_id=syn v2.0.114 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.114/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.114\\src\\lib.rs", Edition2021) }
+   0.259932500s  INFO prepare_target{force=false package_id=syn v2.0.114 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\syn-5c1de28ff307b93c\lib-syn`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.260439000s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.260456800s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\thiserror-68cd8b5e9fb3c4e1\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.261458600s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\build.rs", Edition2021) }
+   0.261480900s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\thiserror-b7776841660e8a36\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.261643700s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\build.rs", Edition2021) }
+   0.261655200s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\thiserror-91d453179777af8e\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.262104700s  INFO prepare_target{force=false package_id=thiserror-impl v1.0.69 target="thiserror_impl"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror-impl v1.0.69/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("thiserror_impl", ["proc-macro"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-impl-1.0.69\\src\\lib.rs", Edition2021) }
+   0.262136600s  INFO prepare_target{force=false package_id=thiserror-impl v1.0.69 target="thiserror_impl"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\thiserror-impl-14d0c8d18ac714c4\lib-thiserror_impl`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.262599500s  INFO prepare_target{force=false package_id=tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast) target="tiimu_expr_ast"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_ast", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-ast\\src\\lib.rs", Edition2021) }
+   0.262617200s  INFO prepare_target{force=false package_id=tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast) target="tiimu_expr_ast"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-ast-b491a8a5a4dcc32f\lib-tiimu_expr_ast`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.263148900s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
+   0.263168100s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\hex-d43717e055d4f082\lib-hex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.263889200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.263915600s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde-5f48ce7511caa88a\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.264683000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.264704000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde-00da174b0d04e01c\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.264879800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.264889800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde-892da979804af6df\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.265569600s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.265589100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_core-5068606f78f28f71\lib-serde_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.266322400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.266342300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_core-bd931e83f1052b8c\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.266565400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.266575700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_core-e017d6204d6f9c3e\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.267071800s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
+   0.267089900s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_derive-02dd799a68997ffb\lib-serde_derive`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.267555700s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
+   0.267573000s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_json-e293e157ded44ca9\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.268050800s  INFO prepare_target{force=false package_id=itoa v1.0.17 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.17/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.17\\src\\lib.rs", Edition2021) }
+   0.268068900s  INFO prepare_target{force=false package_id=itoa v1.0.17 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\itoa-02921e8292b230a8\lib-itoa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.269002700s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.269025500s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_json-7f084ae1d4a3ca69\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.269263300s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.269277300s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\serde_json-a6eeaceb3e3d2f2d\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.270068500s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.20/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.20\\src\\lib.rs", Edition2021) }
+   0.270089800s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\zmij-b3644fa6fef35024\lib-zmij`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.271030000s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.20/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.20\\build.rs", Edition2021) }
+   0.271057200s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\zmij-e461005f8fa80574\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.271258400s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.20/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.20\\build.rs", Edition2021) }
+   0.271272700s  INFO prepare_target{force=false package_id=zmij v1.0.20 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\zmij-91435e768e147c3b\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.272039900s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+   0.272061000s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\sha2-b19e6370e4d10cde\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.272742100s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.272767200s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\cfg-if-f35af99d81ed8f2e\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.273269100s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.273287200s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\cpufeatures-2d7d7e4bba255175\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.274001100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.274028600s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\digest-01c30de0177ea9be\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.274892600s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.274921000s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\block-buffer-c9511f3323bcc6bb\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.275571000s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   0.275613100s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\generic-array-410a4f3f9eb36c63\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.276764700s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\build.rs", Edition2015) }
+   0.276793900s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\generic-array-65d945cb94366cb4\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.277147000s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\build.rs", Edition2015) }
+   0.277168800s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\generic-array-0be271e4b611811c\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.278060600s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\src\\lib.rs", Edition2018) }
+   0.278083000s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\typenum-732572f2b7e4c287\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.278856100s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\build.rs", Edition2018) }
+   0.278880500s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\typenum-b6d10bb36ac10231\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.279079600s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\build.rs", Edition2018) }
+   0.279094100s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\typenum-8b372cd648e06078\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.279733100s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.7\\src\\lib.rs", Edition2018) }
+   0.279752300s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\crypto-common-4e3012f5c128f7c5\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.280373200s  INFO prepare_target{force=false package_id=tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl) target="tiimu_dsl"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tiimu_dsl", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-dsl\\src\\lib.rs", Edition2021) }
+   0.280392300s  INFO prepare_target{force=false package_id=tiimu-dsl v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-dsl) target="tiimu_dsl"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-dsl-767bb8dbfaee0a11\test-lib-tiimu_dsl`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.281172500s  INFO prepare_target{force=false package_id=tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast) target="tiimu_expr_ast"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_ast", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-ast\\src\\lib.rs", Edition2021) }
+   0.281195100s  INFO prepare_target{force=false package_id=tiimu-expr-ast v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-ast) target="tiimu_expr_ast"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-ast-e48a94af462c0e25\test-lib-tiimu_expr_ast`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.281980600s  INFO prepare_target{force=false package_id=tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval) target="tiimu_expr_eval"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_eval", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-eval\\src\\lib.rs", Edition2021) }
+   0.282003200s  INFO prepare_target{force=false package_id=tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval) target="tiimu_expr_eval"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-eval-874a4778006f4bf6\lib-tiimu_expr_eval`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.282775600s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint: fingerprint error for regex v1.12.3/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-1.12.3\\src\\lib.rs", Edition2021) }
+   0.282799600s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\regex-52c7ac04c4885475\lib-regex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.283430600s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint: fingerprint error for aho-corasick v1.1.4/Check { test: false }/TargetInner { ..: lib_target("aho_corasick", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aho-corasick-1.1.4\\src\\lib.rs", Edition2021) }
+   0.283449500s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\aho-corasick-065b4ece17ea3816\lib-aho_corasick`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.284258600s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.14/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.14\\src\\lib.rs", Edition2021) }
+   0.284280300s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\regex-automata-53f43db9a826b6ee\lib-regex_automata`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.285000400s  INFO prepare_target{force=false package_id=regex-syntax v0.8.9 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint error for regex-syntax v0.8.9/Check { test: false }/TargetInner { ..: lib_target("regex_syntax", ["lib"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-syntax-0.8.9\\src\\lib.rs", Edition2021) }
+   0.285021200s  INFO prepare_target{force=false package_id=regex-syntax v0.8.9 target="regex_syntax"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\regex-syntax-1e6f72bf7129c1dd\lib-regex_syntax`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.285540700s  INFO prepare_target{force=false package_id=tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval) target="tiimu_expr_eval"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_eval", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-eval\\src\\lib.rs", Edition2021) }
+   0.285559600s  INFO prepare_target{force=false package_id=tiimu-expr-eval v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-eval) target="tiimu_expr_eval"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-eval-384a046700f7ce20\test-lib-tiimu_expr_eval`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.286414400s  INFO prepare_target{force=false package_id=tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry) target="tiimu_expr_registry"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_registry", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-registry\\src\\lib.rs", Edition2021) }
+   0.286435500s  INFO prepare_target{force=false package_id=tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry) target="tiimu_expr_registry"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-registry-50b26ab8f6135e4a\lib-tiimu_expr_registry`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.286816200s  INFO prepare_target{force=false package_id=async-trait v0.1.89 target="async_trait"}: cargo::core::compiler::fingerprint: fingerprint error for async-trait v0.1.89/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("async_trait", ["proc-macro"], "C:\\Users\\vpali\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-trait-0.1.89\\src\\lib.rs", Edition2021) }
+   0.286834600s  INFO prepare_target{force=false package_id=async-trait v0.1.89 target="async_trait"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\async-trait-1413379ecae37cec\lib-async_trait`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.287550500s  INFO prepare_target{force=false package_id=tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry) target="tiimu_expr_registry"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_registry", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-registry\\src\\lib.rs", Edition2021) }
+   0.287575500s  INFO prepare_target{force=false package_id=tiimu-expr-registry v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-registry) target="tiimu_expr_registry"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-registry-3fcaecf2582cc20c\test-lib-tiimu_expr_registry`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.288132100s  INFO prepare_target{force=false package_id=tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck) target="tiimu_expr_typecheck"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_typecheck", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-typecheck\\src\\lib.rs", Edition2021) }
+   0.288153600s  INFO prepare_target{force=false package_id=tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck) target="tiimu_expr_typecheck"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-typecheck-8b07ac7ae49f9e46\lib-tiimu_expr_typecheck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.288685300s  INFO prepare_target{force=false package_id=tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck) target="tiimu_expr_typecheck"}: cargo::core::compiler::fingerprint: fingerprint error for tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tiimu_expr_typecheck", ["lib"], "C:\\Users\\vpali\\OneDrive\\Documents\\GitHub\\tiimu-dsl-evaluator\\crates\\tiimu-expr-typecheck\\src\\lib.rs", Edition2021) }
+   0.288705000s  INFO prepare_target{force=false package_id=tiimu-expr-typecheck v0.1.0 (C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\crates\tiimu-expr-typecheck) target="tiimu_expr_typecheck"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\vpali\OneDrive\Documents\GitHub\tiimu-dsl-evaluator\target\debug\.fingerprint\tiimu-expr-typecheck-757bd8302d30cfb7\test-lib-tiimu_expr_typecheck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.44
+   Compiling typenum v1.19.0
+    Checking memchr v2.8.0
+   Compiling serde_core v1.0.228
+   Compiling zmij v1.0.20
+   Compiling serde v1.0.228
+   Compiling serde_json v1.0.149
+    Checking cpufeatures v0.2.17
+    Checking itoa v1.0.17
+    Checking cfg-if v1.0.4
+   Compiling thiserror v1.0.69
+    Checking hex v0.4.3
+    Checking regex-syntax v0.8.9
+    Checking ucd-trie v0.1.7
+   Compiling generic-array v0.14.7
+error: could not compile `quote` (build script) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `proc-macro2` (build script) due to 1 previous error
+error: could not compile `serde_core` (build script) due to 1 previous error
+error: could not compile `serde_json` (build script) due to 1 previous error
+error: could not compile `zmij` (build script) due to 1 previous error
+error: could not compile `typenum` (build script) due to 1 previous error
+error: could not compile `generic-array` (build script) due to 1 previous error
+error: could not compile `serde` (build script) due to 1 previous error
+error: could not compile `thiserror` (build script) due to 1 previous error
+    Checking aho-corasick v1.1.4
+    Checking pest v2.8.6
+    Checking regex-automata v0.4.14
+    Checking regex v1.12.3
