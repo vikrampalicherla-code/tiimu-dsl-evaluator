@@ -1,3 +1,15 @@
+//!
+//! Deploy-time validation (typechecking) for TIIMU expressions.
+//!
+//! Validates that:
+//! - referenced fields exist in the dictionary snapshot,
+//! - operators are applied to compatible types,
+//! - regex patterns compile,
+//! - function calls match declared signatures,
+//! - the top-level expression returns a boolean (deterministic decisioning).
+//!
+//! Runtime assumes validation has already succeeded.
+
 use regex::Regex;
 use thiserror::Error;
 use tiimu_expr_ast::{CompareOp, Expr, FieldRef, Literal, LiteralOrField};
@@ -121,4 +133,10 @@ fn infer_value(v: &LiteralOrField, dict: &dyn Dictionary) -> Result<Ty, TypeErro
 
 fn ensure_bool(t: Ty, msg: &str) -> Result<(), TypeError> {
     if t != Ty::Bool { Err(TypeError::TypeMismatch(msg.into())) } else { Ok(()) }
+}
+
+
+/// Convenience: dependencies for storage/indexing (fields + functions).
+pub fn dependencies(expr: &Expr) -> tiimu_expr_ast::Dependencies {
+    tiimu_expr_ast::extract_dependencies(expr)
 }

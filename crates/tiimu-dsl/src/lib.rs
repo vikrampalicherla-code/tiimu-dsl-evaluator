@@ -1,3 +1,15 @@
+//!
+//! Parser for the TIIMU Text DSL.
+//!
+//! Parses a human-friendly Boolean expression language into the shared AST in `tiimu-expr-ast`.
+//!
+//! Typical pipeline:
+//! 1. Author writes DSL text (e.g. in a UI builder).
+//! 2. Parse DSL -> AST.
+//! 3. Deploy-time validate AST against a dictionary snapshot + function registry.
+//! 4. Store DSL + AST JSON + dependencies.
+//! 5. Runtime evaluates AST against a small context map (deterministic, no UNKNOWN).
+
 use pest::Parser;
 use pest_derive::Parser;
 use thiserror::Error;
@@ -13,6 +25,9 @@ pub enum DslError {
     Parse(String),
 }
 
+/// Parses DSL text into an AST (`tiimu_expr_ast::Expr`).
+///
+/// Returns a structured parse error string if the input is invalid.
 pub fn parse_expression(input: &str) -> Result<Expr, DslError> {
     let mut pairs = ExprParser::parse(Rule::expression, input).map_err(|e| DslError::Parse(e.to_string()))?;
     let pair = pairs.next().ok_or_else(|| DslError::Parse("empty expression".into()))?;

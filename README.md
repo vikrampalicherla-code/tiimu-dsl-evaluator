@@ -11,3 +11,13 @@ Run:
 ```bash
 cargo test
 ```
+
+
+## v0.2 additions
+- Extensible runtime function registry: `tiimu_expr_eval::FunctionRegistry` (register custom functions).
+- Dependency extraction: `tiimu_expr_ast::extract_dependencies` (fields/functions used).
+
+
+## Documentation
+- Grammar: `docs/dsl_grammar.md`
+- Crate-level docs: run `cargo doc --open`
